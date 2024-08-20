@@ -53,5 +53,5 @@ jobs:
           push: true
           tags: |
             ${{ steps.meta.outputs.tags }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/one-api:latest
+            blackmini/one-api:latest
           labels: ${{ steps.meta.outputs.labels }}
